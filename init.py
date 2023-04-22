@@ -1,5 +1,4 @@
 import os
-import libusb_package
 import usb
 import time
 
