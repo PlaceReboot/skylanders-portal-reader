@@ -11,18 +11,20 @@ Red if a skylander is fully removed from the base.
 There are some unnecessary waits in it for showcase of what it was before and what it is after.
 PS. I'm not that good with python but certainly better than with C++
 
-#Requirements
+# Requirements
 pyusb
 libusb
 portal
 skylander
 zadig
 
+# Instructions
 First you must use zadig to convert the portal's usb drivers to WinUSB, this is apparently irreversible (when i tried it really did just replace the driver).
 Second you must install libusb.
 Third pip install pyusb.
 Lastly, run the code (might need to run as admin).
 
+# Notes
 Note that to modify it you will require their RFID protocol:
 https://github.com/tresni/PoweredPortals/wiki/USB-Protocols <- my savior, without this repo the entire project would never exist!!!
 https://pastebin.com/EqtTRzeF
